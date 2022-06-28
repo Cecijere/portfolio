@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(76, 23, 14);
+}
+
+#contacto {
+    float: right;
+    margin-right: 0%;
+    margin-left: 80%;
+    
+}
+
+.whatsapp {
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.face {
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.instagram {
+    height: 50px;
+    width: 50px;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+#profile-background {
+    background-image: url(https://th.bing.com/th/id/OIP.S5lyhXvoqVAtSC6R10udrQHaEo?w=275&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7);
+    height: 400px; 
+    background-size: cover;
+}
+
+.profile-image {
+    width: 250px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(100%);
+    position: relative;
+
+}
+
+#info-data {
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 60%;
+}
+
