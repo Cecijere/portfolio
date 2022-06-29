@@ -1,10 +1,26 @@
+.banner {
+    background: url(https://th.bing.com/th/id/R.978dad5275d744be2602527e8bfbb728?rik=JnL9%2fjpaoVuGFA&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+.profile img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+/*
 body {
     background-color: rgb(76, 23, 14);
 }
 
-#contacto {
+#login {
     float: right;
-    margin-right: 0%;
+    margin-right: 30%;
     margin-left: 80%;
     
 }
@@ -42,7 +58,7 @@ body {
 #profile-background {
     background-image: url(https://th.bing.com/th/id/OIP.S5lyhXvoqVAtSC6R10udrQHaEo?w=275&h=180&c=7&r=0&o=5&dpr=1.2&pid=1.7);
     height: 400px; 
-    background-size: cover;
+    
 }
 
 .profile-image {
@@ -59,4 +75,4 @@ body {
     margin-left: 0%;
     margin-right: 60%;
 }
-
+*/
