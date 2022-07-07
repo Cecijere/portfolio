@@ -1,7 +1,11 @@
+.navBar {
+  height: 70px;
+}
+
 .logos img {
-  position: absolute;
-  height: 10%;
-  margin-top: -1%;
+  position: relative;
+  height: 150%;
+  margin-top: -3%;
 }
 
 .contact img {
@@ -23,9 +27,32 @@
   background-size: cover;
 }
 
-.profile img {
-  width: 90%;
-  border-radius: 50%;
-  transform: translateY(60%);
+.editBanner img {
+  width: 10%;
+  border-radius: 20%;
   position: relative;
+  float: right;
+}
+
+.profile img {
+  width: 100%;
+  border-radius: 50%;
+  transform: translateY(50%);
+  position: relative;
+  float: left;
+}
+
+.editProfile img {
+  margin-top: 20%;
+  width: 10%;
+  border-radius: 20%;
+  position: relative;
+  float: right;
+}
+
+.editDatos img {
+  width: 10%;
+  border-radius: 20%;
+  position: relative;
+  float: left;
 }
