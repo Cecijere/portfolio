@@ -15,12 +15,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js
     "></script>
     <script src="script.js"></script>
+
+    <script src="https://kit.fontawesome.com/cba4a0ba74.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <!-- Content -->
-    <div
-      class="navBar col-12 d-flex justify-content-between p-3 mb-2 bg-danger text-white"
+    <div class="navBar col-12 d-flex justify-content-between p-3 mb-2 bg-danger text-white"
     >
       <div class="logos col-5 d-flex flex-row">
         <div class="ap col-3">
@@ -51,6 +52,10 @@
           class="instagram col-4 border border-light"
           src="https://th.bing.com/th/id/OIP.evnc3PXyebSWl33SmwOWwAHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.2&pid=1.7"
         />
+        <img
+          class="github col-4 border border-light"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtYSClLygf7EK-cPlr8rqAG6K27tmIUXLrVg&usqp=CAU"
+        />
       </div>
       <div class="login col-3 d-flex flex-round-reverse">
         <div class="espacio col-6"></div>
@@ -72,29 +77,134 @@
           src="https://lh3.googleusercontent.com/bB7VfFFqoktds__flySG7J7vPvFl3tq3jOTs2ksQzbhT_0zP-N7LixvAUNYHZIsTuOMEBm3jBxAf_dI7aeG7D2THLzi4aKhQrujdbo0_fYn3g_SGG93-6xiAEUJWbRt_df5KWW28nm7T4HSxcvrJ6-odQiO94eWrub0nphGh2LRCWAL4UHDq1eW72vXVK4MOxpKsEOHUXNBbvEcDMMtkgeiwnN8DuKDotu06mIC-qq_1fxf7HqcWBbY57l9r8bV-MmcNCJF3HZoPXtt16ogd9HHXRe-bhmTvDvjpbThxqHk0yjA_AVdq1Dmrol7cn79SXnoKbrOhfYcrBMic0iRt5gXXYomUJV_k8-oBiyJ32KbL6K9c2-ahF5T0SGOIyoYLxu8GBcNzfEPCE-dKC-dpIaUbjOYl8Z93Eb_R8AGJGrxIfNkeZBAJsQnWIEmP_gdZzucb9_u3quxmdj_AQjH9hBRozmAj2p3pNgEWNaCpWVQmwRmvl152RN2bFwISMb2zxYmb7CDwC1hXNsWgA_ZuF17WKPRTk5Y_iAcSUUJOxhW6c35gfsNRG6cq9GTkGr9BSERMt-Y0OH4Iq2HGZriHFjKDE8J6DO71qIsVohJsryFa-iCaweJWlrYUnBxqW0EDDtikTJAL1xHN8UhNYwLuGb6kz-9HlEsiIzrN9ODgqlcWiD0Q_g_-rr_d8YONPmH6Mp4-65kPgH0BhKbiMKIITz0SrOClDivDQuhjXQBJ51MX4ZyUUB9Kcm9fbX4j=w687-h645-no?authuser=0"
         />
       </div>
-      <div class="editBanner col-3">
-        <img src="https://th.bing.com/th/id/OIP.nZpGZCcZCgYrK9ihb5HtqQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="editar">
+      <div class="editBanner col-3" style="text-align: right">
+        <button class="button-edit"><i class="fa-regular fa-pen-to-square"></i></button>
       </div>
     </div>
     
     <div class="info col-12 d-flex justify-content-between">
-      <div class="editProfile col-3">
-          <img src="https://th.bing.com/th/id/OIP.nZpGZCcZCgYrK9ihb5HtqQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="editar">
+      <div class="button col-3 d-flex justify-content-end">
+        <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
       </div>
       <div class="espacio col-1"></div>
       <div class="datos col-6">
         <h2><b>MELISA CECILIA SALINAS</b><br /></h2>
-        <h3>Full Stack Developer<br></h3><h4>Mendoza (Argentina)</h4>
+        <h3>Full Stack Developer Jr.<br></h3><h4>Mendoza (Argentina)</h4>
       </div>
       <div class="editDatos col-3">
-        <img src="https://th.bing.com/th/id/OIP.nZpGZCcZCgYrK9ihb5HtqQHaHa?w=188&h=188&c=7&r=0&o=5&dpr=1.2&pid=1.7" alt="editar">
+        <button class="button-edit btn btn-light" style="text-align: right"><i class="fa-regular fa-pen-to-square"></i></button>
       </div>
     </div>
 
-    <div class="Experiencia">
+    <div class="Experiencia col-12" style="padding: 5%">
+      <div class="Titulo col-6"></div>
       <h2>EXPERIENCIA</h2>
     </div>
+    <ul id="exp"> 
+      <li> </li>
     
+      <div class="editDatos col-6 d-flex justify-content-between">
+        <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+      </div>
+      <div class="deleteDatos">
+        <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+      </div> 
+    </ul>
+
+    <div class="Educacion" style="padding: 5%">
+        <h2>EDUCACIÓN</h2>
+    </div>
+    <ul>
+      <li class="educ1">
+        <img src="https://lh3.googleusercontent.com/_EQIVqygzvU38p9TiaTZXiuDWpAF9xNzT4wdwnyd2tmRozIxfXUdOmVDT1OkQkgOhodTKtobmIS503cMV8aMez_2XmMfYc19Or0ASqRb9RJg3Xado5EF_5o19d50RIibv0rDXd26rEEnTHel2IN-UwnS4kOy0RKp4R8q_wx9_JFjXmiWoUvYUq4_ojRcy1l71w52o0gmTCpVhpPUmuCw17rBgaTWC4o6MLTfrbJh6R9bjNeBWS157cUk42zPhdI3E1RnMBea74x0IyRkoyuooi0zJFZ-Mlbpyn71Rs9hLxDcHtbV37OhXnqGoQOhmnOaokFrMvbLKkJvvG3JG1xwbUaL5t2LjcsyQoLig_G2Re9BT96xMYHY04fe6l5odKS3m2pOofsbbfsqu-gfNq9SjQ2kaZ_0MpWgpj8bFKqJ61J4m5F1W5F7LqWDY2m8O9jI3shYmplTExQmr8Io7b6yUN1B9fOvo2VEsJLv-Z1aPME-XHRjpbbXZchpmIEkRAcmd1oBPk_dWdBDVWM41QgWWgbMo-s-AkO-asaniJZRYhA7-jJLTPoshw74fVWFPg2EziW4oMfgo2ifXbLM6kpMe5zlofPf571O93TGGCe50O3hfJxaDH4Vn_A4UEuDsWlav9a7s1VYkwThwKoTr7QOl3nYQBRGtzdGeOaf_2OgE4Ip_qS14cdpdkyT0_2aSnREw_T6L3kAOkwFev6tBsN9-Qy5xxHyddcOlEHbvwftDBz8rYZQPLaiG0BPg7t5=w315-h203-no?authuser=0" alt="Certificado">
+          
+          <h4>Argentina Programa</h4>
+          <h5>Primera Etapa</h5>
+          <h5>#Sé Programar</h5>
+          <h6>Octubre-Diciembre, 2021</h6> 
+        
+        <div class="editDatos">
+          <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+        </div>
+        <div class="deleteDatos">
+            <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+        </div> 
+      </li>
+
+      <li class="educ2">
+        <img src="https://lh3.googleusercontent.com/9mj3slJpf0MiCfXNogvC0_iahGAqkrqjz_JqxYsLn1o1ysKqvZV6gkcQWYXo-Yy-HeI_ZQUt9KtZvqp7KfBLXd83QJjbrHp3y3iT7r6GCjfjYI4-711-ALZwnYOSQ5wiBLaIdR1x4sIFkD57e57XjDTlvAxtwUd2g_pIn5-ppwgYJPAYnfsX8LeUckvB3GpbIbCfkpnPM_1fBlIohV1A2Bk41garzDNyOq2szvyIrqI2HYxx2hPMKXsckKRo2nVYnkDHlmb7uYv4AHYwW11cKm1TZJ7qE6wnBNa9K6ge8-sfRU_rBQCq80voUplOTTNWpj64C1-I48C3qOCXEtu5H64GDrLD1of4UV0F5D1EnxHondWp2xZkjY9BWsLr8e6uEec-nHWfv8XY6-EGk3TpEVI0J-pnMX4gbYm2FEJ6enQVD941R0jYV3PGgHlOthO3rZ1f3BjhUmoUrBXhn8q_ku_YIE3gXLjPb3nv0jXsMcKGjwUJCLW0DqnQ8R7p7FJYU94CaqG40KUQKP0W_SRUsOZ6mN_pIp2vRATiIe6OFYb1mO4uZOfMxBtT2sj8TostcYePtBnoiADKGVyF_V20dZtDNy5kjKSFYqG3XLV9AFm04cOxgTU9cWkJUxLoStwh_eiceM1NzWr8H9y75oNgxezv_769jDhisyuT0yIKI1un71OOEn1HO_d2ttYBxf5-E2QDP2UUTV5VXDs9ofQ1TRkeIDR0pNGVJqlXwOCmwJTGwY4GrrtEwH6rnthR=w720-h481-no?authuser=0" alt="Certificado">
+          
+          <h4>Plataforma da Aprendizaje Virtual</h4>
+          <h5>"Algoritmos en Programación"</h5>
+          <h5></h5>
+          <h6>21/06/2022</h6>
+          
+        <div class="editDatos">
+          <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+        </div>
+        <div class="deleteDatos">
+          <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+        </div> 
+      </li>
+
+      <li class="educ3">
+        <img src="https://lh3.googleusercontent.com/_EQIVqygzvU38p9TiaTZXiuDWpAF9xNzT4wdwnyd2tmRozIxfXUdOmVDT1OkQkgOhodTKtobmIS503cMV8aMez_2XmMfYc19Or0ASqRb9RJg3Xado5EF_5o19d50RIibv0rDXd26rEEnTHel2IN-UwnS4kOy0RKp4R8q_wx9_JFjXmiWoUvYUq4_ojRcy1l71w52o0gmTCpVhpPUmuCw17rBgaTWC4o6MLTfrbJh6R9bjNeBWS157cUk42zPhdI3E1RnMBea74x0IyRkoyuooi0zJFZ-Mlbpyn71Rs9hLxDcHtbV37OhXnqGoQOhmnOaokFrMvbLKkJvvG3JG1xwbUaL5t2LjcsyQoLig_G2Re9BT96xMYHY04fe6l5odKS3m2pOofsbbfsqu-gfNq9SjQ2kaZ_0MpWgpj8bFKqJ61J4m5F1W5F7LqWDY2m8O9jI3shYmplTExQmr8Io7b6yUN1B9fOvo2VEsJLv-Z1aPME-XHRjpbbXZchpmIEkRAcmd1oBPk_dWdBDVWM41QgWWgbMo-s-AkO-asaniJZRYhA7-jJLTPoshw74fVWFPg2EziW4oMfgo2ifXbLM6kpMe5zlofPf571O93TGGCe50O3hfJxaDH4Vn_A4UEuDsWlav9a7s1VYkwThwKoTr7QOl3nYQBRGtzdGeOaf_2OgE4Ip_qS14cdpdkyT0_2aSnREw_T6L3kAOkwFev6tBsN9-Qy5xxHyddcOlEHbvwftDBz8rYZQPLaiG0BPg7t5=w315-h203-no?authuser=0" alt="Certificado">
+          
+          <h4>Argentina Programa</h4>
+          <h5>Segunda Etapa</h5>
+          <h5>"Full Stack Developer Jr."</h5>
+          <h6>Febrero-Agosto, 2022</h6>
+        
+          <div class="editDatos">
+            <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+          </div>
+          <div class="deleteDatos">
+            <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+          </div> 
+      </li>
+    </ul>
+    
+    <div class="Habilidades" style="padding: 5%">
+      <div class="Titulo"></div>
+      <h2>HARD & SOFT SKILL</h2>
+    </div>
+
+    <div class="Proyectos" style="padding: 5%">
+      <div class="Titulo"></div>
+      <h2>PROYECTOS</h2>
+    </div>
+    <ul>
+      <li class="proyecto1">
+        <img src="" alt="Imagen de Proyecto">
+          
+          <h4>VETERINARIA CUKI</h4>
+          <h5>Desafío Argentina Programa</h5>
+          <h5></h5>
+          <h6>Junio, 2022</h6> 
+        
+        <div class="editDatos">
+          <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+        </div>
+        <div class="deleteDatos">
+            <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+        </div> 
+      </li>
+
+      <li class="proyecto2">
+        <img src="" alt="Imagen de Proyecto">
+          
+          <h4>PORTFOLIO</h4>
+          <h5></h5>
+          <h5></h5>
+          <h6>Febrero-Agosto, 2022</h6>
+          
+        <div class="editDatos">
+          <button class="button-edit btn btn-light"><i class="fa-regular fa-pen-to-square"></i></button>
+        </div>
+        <div class="deleteDatos">
+          <button class="button-delete btn btn-light"><i class="fa-solid fa-trash-can"></i></button>
+        </div> 
+      </li>
     
   </body>
 </html>
